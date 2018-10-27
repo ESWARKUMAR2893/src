@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './patientdata.component.html',
   styleUrls: ['./patientdata.component.css']
 })
-export class PatientdataComponent implements OnInit {
+export class PatientdataComponent {
 
-  constructor() { }
+  city = 'Hyderabad';
+  dob ='21-DEC-1994';
+  country='India';
+  items = ['Fever', 'Couge'];
+attachments = ['X-ray', 'Prescriptions'];
 
-  ngOnInit() {
-  }
 
 }
