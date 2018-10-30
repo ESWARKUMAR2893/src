@@ -8,6 +8,7 @@ import { ServicesComponent } from './components/services/services.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { OurdoctorsComponent } from './components/ourdoctors/ourdoctors.component';
 import { ContactusComponent } from './components/contactus/contactus.component' ;
+import { SignUpComponent } from './components/sign-up/sign-up.component' ;
 
 const routes: Routes = [
 
@@ -18,7 +19,8 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'ourdoctors', component: OurdoctorsComponent },
-  { path: 'contactus', component: ContactusComponent }
+  { path: 'contactus', component: ContactusComponent },
+  { path: 'sign-up', component: SignUpComponent}
 
 ];
 

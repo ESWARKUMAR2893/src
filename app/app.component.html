@@ -7,7 +7,7 @@
     height="100%">-->
 
     <div > 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="alert alert-dark navbar navbar-expand-lg navbar-light bg-light">
          <!--   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -21,7 +21,7 @@
                   <a class="nav-link" routerLink="/aboutus">About Us</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" routerLink="/services">Services</a>
+                  <a class="nav-link" routerLink="/sign-up">sign-up</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/appointment">Appointment</a>
@@ -44,7 +44,6 @@
               </ul>
         </div></nav>
         </div>
-        
 <!--<ngb-carousel *ngIf="images">
   <ng-template ngbSlide>
     <img width="100%" [src]="images[0]" alt="Random first slide">
@@ -103,5 +102,7 @@
     <!--<app-patientdata></app-patientdata>-->
     <div id="content">
       <router-outlet></router-outlet>
+
     </div>
 </div>
+      <app-footer></app-footer>

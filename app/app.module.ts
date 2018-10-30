@@ -15,6 +15,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { OurdoctorsComponent } from './components/ourdoctors/ourdoctors.component';
 import { ContactusComponent } from './components/contactus/contactus.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,9 @@ import { ContactusComponent } from './components/contactus/contactus.component';
     ServicesComponent,
     GalleryComponent,
     OurdoctorsComponent,
-    ContactusComponent
+    ContactusComponent,
+    SignUpComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
