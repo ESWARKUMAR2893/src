@@ -16,7 +16,7 @@
 }
 
 .active, .accordion:hover {
-    background-color: red;
+ /*   background-color: red; */
 }
 
 .accordion:after {
